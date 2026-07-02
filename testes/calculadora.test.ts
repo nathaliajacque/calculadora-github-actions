@@ -1,4 +1,5 @@
 import  Calculadora  from '../src/calculadora';
+import { describe, it, expect, beforeEach } from '@jest/globals';
 import  {adicionar}  from '../src/operacoes/adicao';
 import  {subtrair}  from '../src/operacoes/subtracao';
 import  {multiplicar}  from '../src/operacoes/multiplicacao';
